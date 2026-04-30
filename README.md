@@ -1,9 +1,8 @@
 # Smart Home Automation System
 
 An IoT-based smart home automation system that enables 
-wireless remote control of home appliances like lights 
-and fans using ESP32 microcontroller and Blynk mobile 
-application.
+wireless remote control of home lights using ESP32 
+microcontroller and Blynk mobile application.
 
 ## Team Members
 - Vidhya Shree M - Hardware & Software Developer
@@ -14,40 +13,29 @@ application.
 - IDE: Arduino Cloud
 - Language: Embedded C / IoT
 - App: Blynk Mobile Application
-- Hardware: Relay Module, DHT11 Sensor, LDR Sensor,
-  MQ135 Sensor, Buzzer, LCD, PCB Board
-- OS: Windows 7/10
-
-## Features
-- Remote control of lights and fans via mobile app
-- Real-time temperature and humidity monitoring
-- Motion detection and automatic lighting
-- Air quality monitoring using MQ135 sensor
-- SOS button for emergency alerts
-- Energy efficient automated operation
-- WiFi and Bluetooth connectivity
 
 ## Hardware Components
 - ESP32 Microcontroller
 - 4 Channel Relay Module
-- DHT11 Temperature and Humidity Sensor
-- LDR Light Sensor
-- MQ135 Air Quality Sensor
-- Buzzer
-- LCD Display
-- PCB Board
+- Bulbs / Lights
 - 12V 2A Adapter
+- PCB Board
+
+## Features
+- Remote control of lights via Blynk mobile app
+- Wireless control using WiFi
+- Turn lights ON/OFF from anywhere
+- Energy efficient automated lighting
 
 ## How It Works
 - ESP32 acts as central control unit
 - User sends commands via Blynk mobile app
 - ESP32 receives commands over WiFi
-- Relay module switches lights and fans ON/OFF
-- Sensors monitor environment in real time
+- Relay module switches lights ON/OFF
 
 ## Project Type
 Mini Project | Team Project (2 Members)
-Academic Year: 2024-25
+Academic Year: 2023-24
 
 ## Institution
 SJC Institute of Technology, Chickaballapur
@@ -55,9 +43,8 @@ Department of Electronics and Communication Engineering
 Visvesvaraya Technological University, Belagavi
 
 ## Future Scope
-- Voice control integration with Alexa or Google Home
+- Add fan and appliance control
+- Voice control using Alexa or Google Home
+- Motion sensor based automatic lighting
 - Solar power integration
-- Mobile app for Android and iOS
 - AI based energy optimization
-- Cloud based data storage and analytics
-- Smart door lock integration
